@@ -67,9 +67,3 @@ datajam-2026-bogota/
 │   │                                  # Documento base para el pitch y storytelling.
 │   └── imagenes/                      # Material de apoyo extra (logos, iconos) para diapositivas.
 ```
-
-### Guía Rápida para TimesFM
-Si decides desarrollar la Fase 5:
-1. **Instalación:** Asegúrate de agregar la dependencia `timesfm` al `requirements.txt`.
-2. **Experimentación:** Carga la librería, alimenta los datos desde `01_datos/processed` y ajusta los hiperparámetros del modelo en `02_notebooks/04_timesfm_prediccion.ipynb`.
-3. **Exportación intacta:** Los pronósticos generados (prospección de datos) nunca deben reemplazar los datos fuente ni combinarse allí; su exportación como tabla debe ir directamente a `05_outputs/predicciones/`.
