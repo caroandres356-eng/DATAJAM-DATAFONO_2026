@@ -1,4 +1,7 @@
-# DATAJAM-DATAFONO_2026# DataJam Datáfono 2026 - Bogotá
+<<<<<<<<< Temporary merge branch 1
+# DATAJAM-DATAFONO_2026
+=========
+# DataJam Datáfono 2026 - Bogotá
 
 Este repositorio contiene la estructura base para el proyecto desarrollado durante la DataJam 2026, enfocado en Bogotá. 
 
