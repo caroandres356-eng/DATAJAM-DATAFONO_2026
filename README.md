@@ -67,5 +67,7 @@ Para replicar el análisis, siga estos pasos:
 ---
 
 ## 👥 Equipo
-*   **Andrés Caro** - Desarrollo y Análisis de Datos.
-*   Participantes del DataJam Bogotá 2026.
+*   **Julian Felipe Africano Preciado**
+*   **Sebastián Gómez Román**
+*   **Andres Felipe Caro Medina**
+*   Participantes del Bogotá DataJam 2026.
