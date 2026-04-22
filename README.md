@@ -35,16 +35,32 @@ El análisis se dividió en las siguientes fases:
 ---
 
 ## 📂 Estructura del Repositorio
-Siguiendo los lineamientos de la guía de entrega:
+Siguiendo los lineamientos de la guía de entrega, el proyecto se organiza de la siguiente manera:
 
-*   **[`01_datos/`](file:///c:/Users/Latitude/Documents/V%20Semestre/DATAJAM/DATAJAM-DATAFONO_2026/datajam-2026-bogota/01_datos/)**: Datasets originales (`raw`) y procesados (`processed`) en formato CSV.
+*   **[`01_datos/`](file:///c:/Users/Latitude/Documents/V%20Semestre/DATAJAM/DATAJAM-DATAFONO_2026/datajam-2026-bogota/01_datos/)**:
+    *   `raw/`: Contiene los archivos originales en formato Excel (`.xlsx`) descargados de Datos Abiertos Bogotá.
+    *   `processed/`: Versiones estandarizadas y normalizadas en formato CSV para carga rápida.
 *   **[`02_notebooks/`](file:///c:/Users/Latitude/Documents/V%20Semestre/DATAJAM/DATAJAM-DATAFONO_2026/datajam-2026-bogota/02_notebooks/)**:
-    *   `01_exploracion`: Análisis inicial descriptivo.
-    *   `02_analisis_focal`: Profundización por dataset.
-    *   `03_analisis_final`: Notebook central con la validación de hipótesis y modelos predictivos.
-*   **[`03_scripts/`](file:///c:/Users/Latitude/Documents/V%20Semestre/DATAJAM/DATAJAM-DATAFONO_2026/datajam-2026-bogota/03_scripts/)**: Scripts auxiliares para limpieza y procesamiento por lotes.
-*   **[`05_outputs/`](file:///c:/Users/Latitude/Documents/V%20Semestre/DATAJAM/DATAJAM-DATAFONO_2026/datajam-2026-bogota/05_outputs/)**: Tablas de resultados y proyecciones.
-*   **[`06_docs/`](file:///c:/Users/Latitude/Documents/V%20Semestre/DATAJAM/DATAJAM-DATAFONO_2026/datajam-2026-bogota/06_docs/)**: Documentación técnica, nota de integración y fichas metodológicas.
+    *   `01_exploracion/`: Análisis descriptivo inicial de las fuentes.
+    *   `02_analisis_focal/`: Notebooks dedicados a profundizar en cada dimensión (Ideación, Suicidio, Habitabilidad, Deporte, Cultura, Consumo SPA).
+    *   `03_analisis_final/`: El notebook **`04_analisis_territorial_foco.ipynb`**, que centraliza la validación de hipótesis y el modelado predictivo.
+*   **[`03_scripts/`](file:///c:/Users/Latitude/Documents/V%20Semestre/DATAJAM/DATAJAM-DATAFONO_2026/datajam-2026-bogota/03_scripts/)**: Scripts de automatización para limpieza masiva y conversión de formatos.
+*   **[`04_powerbi/`](file:///c:/Users/Latitude/Documents/V%20Semestre/DATAJAM/DATAJAM-DATAFONO_2026/datajam-2026-bogota/04_powerbi/)**: Archivos del tablero interactivo de visualización.
+*   **[`05_outputs/`](file:///c:/Users/Latitude/Documents/V%20Semestre/DATAJAM/DATAJAM-DATAFONO_2026/datajam-2026-bogota/05_outputs/)**: Tablas finales procesadas y resultados de las proyecciones.
+*   **[`06_docs/`](file:///c:/Users/Latitude/Documents/V%20Semestre/DATAJAM/DATAJAM-DATAFONO_2026/datajam-2026-bogota/06_docs/)**: Documentación complementaria y fichas metodológicas.
+
+---
+
+## 📊 Acceso a Productos Finales
+
+### 📈 Dashboard de Power BI
+El tablero de control interactivo permite visualizar las brechas territoriales y las tendencias de riesgo.
+*   **Ubicación**: [`04_powerbi/Dashborad_DataJam.pbix.zip`](file:///c:/Users/Latitude/Documents/V%20Semestre/DATAJAM/DATAJAM-DATAFONO_2026/datajam-2026-bogota/04_powerbi/)
+*   *Nota*: Debe descomprimirse el archivo `.zip` para abrir el archivo `.pbix` en Power BI Desktop.
+
+### 📑 Nota Técnica de Integración
+El documento que detalla el proceso de limpieza, los retos técnicos y la metodología de unión de bases de datos se encuentra aquí:
+*   **Ubicación**: [`06_docs/01_nota_tecnica_integracion.md`](file:///c:/Users/Latitude/Documents/V%20Semestre/DATAJAM/DATAJAM-DATAFONO_2026/datajam-2026-bogota/06_docs/01_nota_tecnica_integracion.md)
 
 ---
 
